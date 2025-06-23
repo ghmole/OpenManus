@@ -1,8 +1,8 @@
 name: Top issues
-on:
-  schedule:
-    - cron: '0 0/2 * * *'
-  workflow_dispatch:
+#on:
+#  schedule:
+#    - cron: '0 0/2 * * *'
+#  workflow_dispatch:
 jobs:
   ShowAndLabelTopIssues:
     permissions:
